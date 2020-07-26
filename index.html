@@ -4,31 +4,32 @@
     <meta charset="utf-8" />
     <title>The Loneliest Chatroom</title>
     <style>
-      *{
+      * {
         box-sizing: border-box;
-        font-family: "Arial Black", Gadget, sans-serif
+        font-family: "Arial Black", Gadget, sans-serif;
       }
-      body{
+      body {
         background-color: lightgoldenrodyellow;
       }
-      #main{
+      #main {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
         margin: 0 10%;
       }
-      #heading{
+      #heading {
         display: grid;
         place-items: center;
         background-color: aliceblue;
         border-radius: 10px;
         padding: 30px;
       }
-      h1, h3{
+      h1,
+      h3 {
         margin: 0;
         text-shadow: 3px 3px 3px lightgray;
       }
-      #chatbox{
+      #chatbox {
         height: 400px;
         padding: 20px;
         background-color: white;
@@ -38,30 +39,30 @@
         align-content: start;
         overflow-y: scroll;
       }
-      .message{
+      .message {
         display: grid;
         grid-template-columns: 1fr 65px 10fr 1fr;
         grid-gap: 10px;
         padding: 5px;
         border-radius: 5px;
       }
-      .message:hover{
+      .message:hover {
         background-color: lightgray;
       }
-      input{
+      input {
         width: 100%;
         font-size: 1.5rem;
         padding: 5px;
       }
-      button{
+      button {
         font-size: 1.5rem;
         padding: 5px;
         cursor: pointer;
       }
-      .sender{
+      .sender {
         color: blue;
       }
-      .delete{
+      .delete {
         cursor: pointer;
         justify-self: end;
       }
@@ -70,7 +71,7 @@
   <body>
     <div id="main">
       <div id="heading">
-        <h1>The Loneliest Chatroom</h1>
+        <h1">The Loneliest Chatroom</h1>
         <h3>No Friends? No Problem!</h3>
       </div>
       <div id="chatbox">
@@ -87,10 +88,11 @@
           <span class="delete">❌</span>
         </div>
       </div>
-      <form><input type="text"/></form>
+      <form>
+        <input type="text" />
+      </form>
       <button>I'm feeling Lonely!</button>
     </div>
-    <script>
-    </script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
